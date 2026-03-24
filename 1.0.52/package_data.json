@@ -1,0 +1,71 @@
+{
+    "name": "0.app1",
+    "version": "1.0.52",
+    "description": "\u4f60\u8bf4\u6211\u505a\u00ae",
+    "main": "src.ts",
+    "author": {
+        "name": "\u4f60\u8bf4\u6211\u505a\u00aeTEL15801580543"
+    },
+    "license": "MIT",
+    "scripts": {
+        "a": "cross-conf-env echo %npm_package_name% %npm_package_version%",
+        "bak": "chcp 65001 && ts-node -r tsconfig-paths/register index.ts",
+        "pro": "chcp 65001 && ts-node index.ts",
+        "dev": "yarn pro --NODE_ENV=development",
+        "\u80fd\u7528": "electron -r ts-node/register ./index.ts"
+    },
+    "config": {
+        "files": {
+            "index.js": "index.ts",
+            "icon.png": "icon.png"
+        },
+        "sqlOp": {
+            "host": "localhost",
+            "port": 3306,
+            "user": "root",
+            "password": "Db13520521413",
+            "database": "ed"
+        }
+    },
+    "devDependencies": {
+        "ts-node-dev": "^1.1.6",
+        "typescript": "4.2.4"
+    },
+    "dependencies": {
+        "electron": "^13.1.4"
+    },
+    "gitHead": "7b49e30edf7fda83399693f03e12cf0fdbcfdce6",
+    "_id": "0.app1@1.0.52",
+    "_nodeVersion": "14.16.0",
+    "_npmVersion": "lerna/4.0.0/node@v14.16.0+x64 (win32)",
+    "dist": {
+        "integrity": "sha512-lOA98TQqLcOsk+qJHhypB6WL0oqoDOYK5fi7z3pgW0DQ4LRz4MbMCWeHgD1etYDrTDfYPcD7bsoMonLK2+ok8g==",
+        "shasum": "7c188af2b2628334493103bb9641956474ac3aa3",
+        "tarball": "https://registry.npmjs.org/0.app1/-/0.app1-1.0.52.tgz",
+        "fileCount": 7,
+        "unpackedSize": 12044,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJg1w9RCRA9TVsSAnZWagAAvoMP/1rhuSD6YFwh3ohz+Tay\nsIW6BjTjY9P91xSN24/km3k+lF57A+2eXuG2dg+zQBnDyAAaGzKnif2NXAvQ\nGDyWfsGpK+8r+6tw/LNwl31B5xfSXHde/J1CV4BCNaKSVKC5687Fn37Tiu5t\npoPJFeGSzXTk/3WuUpQrNEmGn+469rNIHGsYS0HgAQTaQyGs6Y5tuxYOHBqj\nIw5Ph1hoT0rCViry25U3Jy5aHeQh460MmfSQwqqnGGtvoti2tXLnBndXI3ch\n2jzX6aucgm1zaQzNy9jxiUyNwDAmT6ANqjTeYMor1NmnMzfpRCcV/oJCcRsp\ngjXgGEP97XLvC9AhIDiuBvougdMIZTy7B8eWhLVKEaqSl1AgmJOHOiaNTSNA\ngaOcxaNUiaTDeXSklC2KHfF13C0PvjD4pzGtC1MxZwPpHURzkyvUv/DmvSEd\nh4oUDwaNtDpfYbwvFj60HqRUpTSn62UJ04PE69wN0PzVO/oorQnqo02o82q/\n0YNcnefZiJlkt5H9PHKdUfk1SLeIZP0YuGLsSqDV08+uTlyHiG49YoY1hwGU\nMzzDieUjgKguUQTmL/L25jmcoXEpWa/03JlFe7e9eAvALm22iFhrJcMPR2kv\nTpqc06wNFyFLLTjFv2v1rIUawUuk5hCywyCrT5NyDvKmo7Lyxn+b3bqJXZlO\nt5fL\r\n=M9Hk\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQDjXo/pKJL6I5h3dYA2arYoGZOD+qVoDzsUAheeA8YtZQIgfjet1RokGaeWbJj8VmYG6D5qUN7anC+RyHDFx26PB80="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "kitchens",
+        "email": "kitchens@qq.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "kitchens",
+            "email": "kitchens@qq.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/0.app1_1.0.52_1624706897188_0.7536397066214007"
+    },
+    "_hasShrinkwrap": false
+}
