@@ -1,46 +1,55 @@
 {
-    "name": "0-npm",
+    "name": "0038_word_counter_project",
     "version": "1.0.0",
-    "description": "",
     "main": "index.js",
+    "type": "module",
+    "publishConfig": {
+        "access": "public"
+    },
+    "bin": {
+        "0038_word_counter_project": "index.js"
+    },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "serv": "node server.js",
-        "start": "node server.js"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "",
     "license": "ISC",
-    "_id": "0-npm@1.0.0",
-    "_nodeVersion": "12.16.1",
-    "_npmVersion": "6.13.4",
+    "dependencies": {
+        "inquirer": "^9.3.3"
+    },
+    "devDependencies": {
+        "@types/inquirer": "^9.0.7"
+    },
+    "_id": "0038_word_counter_project@1.0.0",
+    "_nodeVersion": "20.11.1",
+    "_npmVersion": "10.2.4",
     "dist": {
-        "integrity": "sha512-qN17s+4bWp+WxN7Pmz6eEoywvoZsw8I0cZEMks9ibtRleP0UIBokGC9u+H1U2mgxq0OaZ1VCAvbo4kEs/OHGQw==",
-        "shasum": "3e88619fe069efd56077147a97c7aa4bb1156ee3",
-        "tarball": "https://registry.npmjs.org/0-npm/-/0-npm-1.0.0.tgz",
-        "fileCount": 2,
-        "unpackedSize": 459,
-        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgMwrWCRA9TVsSAnZWagAAxNsP/ikvLrZd81P/JPflfEGy\nrKJrwUQf+CXQvR73T4dWWL6Em4nFMpBhLK/ZnLkv0iP2dxQxVyAe7bMvU4gt\n8OxJkYr0Z5M4hWlLcrqSjCT4/1upyzWoolLuET6hWTs2iGaahCaQt23x3V7/\nSGsojMpf0O/p7fruD0ECBFR9g7lnLeOV95qMfV8sUvHumdZX7OW6FwcGYPL0\ndUckCZTVeeRZlrPFViEwEBVt/8zqi7OGAu5ya3A10d+iGwrExI/cvbcAsV/J\noXZ9bhKdaNoAiOjhjKabHeUKLH5R8bYo0HIocy2RAcW5L+6SaSbMwOpuOodN\ntQOofBC+BTIebzd/vvh5502yOokPntA33KCXgyzUia6PUTc2RIGMV+w+RF0D\nwqBDdPaLyFgRxLPbdvW9+rm4k86Mh5+6mnHLqbOf53lVulXVg3n+X8rBKSUx\ndPpszgPweWUrDapFpTyq+0S+H8n+/HXH4CUh741/RKASH+if5hpiLse0OT/D\nv+rBIHXdEgquwpmqAhVuICprl2X4V5oiJhcCGnAPEemEGucg4v5fTJMpH7TJ\n3HjZ78SrpuQhnJAt2yPAloA31OhGvOXctHJ0x8Pn5rm7J79j7dbtikx3ddjc\nwjTgvIBOAnICFVinV/L2cATuEFTGdS+J2T84FUKgFzwCF72ZSJLzAsLtxJHd\nrViR\r\n=bVZi\r\n-----END PGP SIGNATURE-----\r\n",
+        "integrity": "sha512-tESM5pJdvXEKRfDuthjmVQDZ97ZJmnuJzhBM1y/a2QgAuVgoCzdnCn3XKnbM++sQ0BjWaFU77yRXeFCBq7XoMA==",
+        "shasum": "d3f7f45f3b3d92d1688c1ae1fd581967586a33d3",
+        "tarball": "https://registry.npmjs.org/0038_word_counter_project/-/0038_word_counter_project-1.0.0.tgz",
+        "fileCount": 4,
+        "unpackedSize": 14338,
         "signatures": [
             {
                 "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
-                "sig": "MEQCIHZHoxxwsQapL8KpzRDxbb9lMe+hsy+kuzSmXzgzZpJHAiAV4+AlmI4OOpFd5fqmAGXNo7Jwh3rEBj+nH5jcg2qz0A=="
+                "sig": "MEUCIAgbwiHh/zbNaRh/+zgzpImsDw6kABKDxwlijiuDE5vsAiEAvGQ2j0EBbLtKnt6uGWSN8Pvti0dXi/qqkvEOG+1jrRI="
             }
         ]
     },
     "_npmUser": {
-        "name": "fxy399",
-        "email": "1724169107@qq.com"
+        "name": "aitech03",
+        "email": "afnanzagq@gmail.com"
     },
     "directories": {},
     "maintainers": [
         {
-            "name": "fxy399",
-            "email": "1724169107@qq.com"
+            "name": "aitech03",
+            "email": "afnanzagq@gmail.com"
         }
     ],
     "_npmOperationalInternal": {
         "host": "s3://npm-registry-packages",
-        "tmp": "tmp/0-npm_1.0.0_1613957846447_0.17080903412012205"
+        "tmp": "tmp/0038_word_counter_project_1.0.0_1720088973682_0.5674989575512563"
     },
     "_hasShrinkwrap": false
 }
