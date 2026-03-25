@@ -1,0 +1,53 @@
+{
+    "name": "0.0timer",
+    "version": "1.0.1",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "\ufffd\ufffd#\u0000 \u0000t\u0000i\u0000m\u0000e\u0000r\u0000\r\u0000 \u0000",
+    "dependencies": {
+        "date-fns": "^3.6.0",
+        "inquirer": "^9.2.22"
+    },
+    "devDependencies": {
+        "@types/inquirer": "^9.0.7"
+    },
+    "_id": "0.0timer@1.0.1",
+    "gitHead": "3802a03387389bad6e26a8ed7fd64b45864af429",
+    "_nodeVersion": "21.7.1",
+    "_npmVersion": "10.5.2",
+    "dist": {
+        "integrity": "sha512-Ijgi4gVuMa/ptZS+gVmiL2IJk+DGfdPxVO8PPIPhVR7X4DxQLPXQ6MoCD4+8XRGUx1bi4CWb7Bs2tfUodM08Wg==",
+        "shasum": "85ae04e8b1de936042db00bf336df5535f8ae3aa",
+        "tarball": "https://registry.npmjs.org/0.0timer/-/0.0timer-1.0.1.tgz",
+        "fileCount": 5,
+        "unpackedSize": 14966,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEYCIQCBhHB66gOhkfhDDSJRYFT1dN6uH3j77gXLZ5V02h7jSgIhALXezeF759936o5lfkYnaJBR2lSb26d/SsaCwtExOa5e"
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "jaweria212",
+        "email": "akhterwaheed470@gmail.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "jaweria212",
+            "email": "akhterwaheed470@gmail.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/0.0timer_1.0.1_1716454853348_0.46968335385107873"
+    },
+    "_hasShrinkwrap": false
+}
